@@ -26,5 +26,9 @@ namespace MVCApp.Controllers
 
             return View();
         }
+        public ActionResult Welcome()
+        {
+            return View();
+        }
     }
 }
